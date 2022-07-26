@@ -77,6 +77,39 @@ variable "db_engine" {
 type = string
 }
 
+variable "db_engine_version" {
+type = number
+}
+
+variable "db_engine_mode" {
+type = string
+}
+
+
+variable "db_admin_username" {
+type = string
+}
+
+variable "db_port" {
+type = number
+}
+
+variable "instance_class" {
+type = string
+}
+
+variable "publicly_accessible" {
+type = bool
+}
+
+variable "auto_minor_version_upgrade" {
+type = bool
+}
+
+variable "db_preferred_maintenance_window_instances" {
+type =  string
+}
+
 
 
 
